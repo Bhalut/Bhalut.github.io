@@ -1,0 +1,28 @@
+.main {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-rows: [body] 80vh;
+  grid-template-columns: [left-gutter] 2fr [sidebar] 4fr [content] 6fr [right-gutter] 2fr;
+  justify-content: center;
+}
+
+.header {
+  grid-row: header;
+  grid-column: sidebar / right-gutter;
+}
+
+.sidebar {
+  display: grid;
+  grid-row: body;
+  grid-column: sidebar;
+  align-items: center;
+  justify-items: center;
+}
+
+.content {
+  display: grid;
+  grid-row: body;
+  grid-column: content;
+  align-items: center;
+  justify-items: center;
+}
