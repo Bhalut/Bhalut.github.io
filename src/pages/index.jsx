@@ -10,14 +10,14 @@ export default props => {
     <Layout>
       <SEO title="Inicio" />
       <div className="main" style={{ width: `100%` }}>
-        <div class="sidebar">
+        <div className="sidebar">
           <div>
             <span>Bienvenido</span>
-            <h1>
+            <h1 style={{ marginTop: `revert`, textAlign: `start` }}>
               Soy{" "}
               <span
                 className="stroke"
-                style={{ fontSize: `1.05em`, margin: 0 }}
+                style={{ fontSize: `1.05em`, margin: `0` }}
               >
                 Abdel Mejia
               </span>
@@ -31,12 +31,12 @@ export default props => {
             <Link to="/bhalut/">
               <button className="button -regular center">Sobre mí</button>
             </Link>
-            <Link to="/ayuda/">
+            <Link to="/consejos/">
               <button className="button -dark center">Consejos</button>
             </Link>
           </div>
         </div>
-        <div class="content">
+        <div className="content">
           <Img
             style={{ opacity: `0.8` }}
             fixed={props.data.file.childImageSharp.fixed}

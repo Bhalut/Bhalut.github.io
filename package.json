@@ -37,6 +37,7 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-refresh": "^0.8.2",
+    "react-twitter-embed": "^3.0.3",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-theme-grand-view": "^0.16.19",

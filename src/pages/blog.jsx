@@ -30,7 +30,7 @@ export default ({ data }) => {
                             textDecoration: `none`,
                             color: `#403f3c`,
                           }}
-                          to={node.fields.slug}
+                          to={"/blog" + node.fields.slug}
                         >
                           {title}
                         </Link>

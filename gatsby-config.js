@@ -8,7 +8,7 @@ module.exports = {
     description: `En esta página web encontrarás temas de tecnología, desarrollo de
     videojuegos y mucho más. Así mismo te mostraré los proyectos que
     he realizado.`,
-    siteUrl: `http://bhalut.com/`,
+    siteUrl: `https://bhalut.com/`,
     social: {
       twitter: `SoyBhalut`,
     },

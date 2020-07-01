@@ -62,7 +62,6 @@ drwxr-xr-x  11 bhalut  staff  374 Jun 25 15:27 .git
 
 ### Agregando cambios
 
-
 Los archivos creados hay que agregarlos al repositorio, esto se hace para rastrear los cambios que han habido en estos mismo, y de igual manera se agregan los cambios que este puede poseer.
 
 Es muy sencillo, solo debes agregarlo de la siguiente manera.
