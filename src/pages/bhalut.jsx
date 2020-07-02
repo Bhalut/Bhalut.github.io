@@ -32,34 +32,35 @@ export default props => {
             />
             <p>Ahoy!</p>
             <p>Bienvenido a mi morada.</p>
-            <p>Es hora de aburrirse un poco hablando de mí.</p>
+            <p>Es hora de que hablemos un rato y te cuento un poco de mí.</p>
             <br />
             <p>
-              No es que te odie, pero hay convenciones, una de ellas es colocar
-              un "Acerca de" en tu sitio web, para aprender sobre el personaje
-              que lo creó.
+              Hay convenciones, una de ellas es colocar un "Acerca de" en tu
+              sitio web, para aprender sobre el personaje que lo creó.
             </p>
             <p>
-              Encantado de conocerte, mi nombre es Abdel Mejía (no pondré mi
-              nombre completo. Y no, no soy árabe, soy colombiano nacido en La
-              Guajira con un nombre hebreo).
+              Encantado de conocerte, mi nombre es Abdel Mejía. Y no, no soy
+              árabe, soy colombiano que nació en La Guajira con un nombre
+              hebreo.
             </p>
             <p>
-              También me gusta la tecnología, los videojuegos o los juegos de
-              mesa, disfruto ser curioso (significa que todo es un pretexto para
-              investigar). Crear me impulsa, por eso estoy en este mundo
-              tecnológico, también los problemas del emprendimiento. Me gusta
-              cocinar (lo hago principalmente por mí, pero siempre me han dicho
-              que se ve bien, todavía no lo creo).
+              Me gusta la tecnología, los videojuegos o los juegos de mesa,
+              disfruto ser curioso (todo es un pretexto para investigar). Crear
+              me impulsa, por eso estoy en este mundo tecnológico, también me
+              interesan los temas de emprendimiento. Cocino bien (o eso me
+              dicen).
             </p>
             <p>
-              Asisto a diferentes comunidades de tecnología, me gustaría ser un
-              ingeniero de software que sepa lo que es necesario desde la base,
-              me gustaría crear, contribuir, dar soluciones, colaborar...
+              Asisto a diferentes comunidades de tecnología, es muy genial
+              relacionarse con las demás personas de la industria con temas muy
+              diversos. Soy un desarrollador con ganas de seguir aprendiendo,
+              conocer distintos temas por pasión a lo que hago, tener buenas
+              bases, habilidades blandas, contribuir, dar soluciones,
+              colaborar... Aportar a la comunidad, este es mi camino ninja.
             </p>
-            <p>Y sí, este personaje soy yo, ya no te aburro.</p>
-            <p>buena suerte.</p>
-            <p>nos vemos.</p>
+            <p>Y sí, este personaje soy yo.</p>
+            <p>Buena suerte.</p>
+            <p>Nos vemos.</p>
           </article>
         </div>
       </div>
