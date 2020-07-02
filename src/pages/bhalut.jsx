@@ -32,31 +32,34 @@ export default props => {
             />
             <p>Ahoy!</p>
             <p>Bienvenido a mi morada.</p>
-            <p>Es hora de que hablemos un rato y te cuento un poco de mí.</p>
+            <p>Es hora de que hablemos un rato y te cuente un poco sobre mí.</p>
             <br />
             <p>
-              Hay convenciones, una de ellas es colocar un "Acerca de" en tu
-              sitio web, para aprender sobre el personaje que lo creó.
+              ¿Esto por qué? Bueno hay convenciones, una de ellas es colocar un
+              "Acerca de" en tu sitio web, para aprender sobre el personaje que
+              lo creó.
             </p>
             <p>
-              Encantado de conocerte, mi nombre es Abdel Mejía. Y no, no soy
-              árabe, soy colombiano que nació en La Guajira con un nombre
-              hebreo.
+              Encantado de conocerte, mi nombre es Abdel Mejía. Soy un
+              colombiano, nacido en La Guajira, con nombre hebreo.
             </p>
             <p>
-              Me gusta la tecnología, los videojuegos o los juegos de mesa,
-              disfruto ser curioso (todo es un pretexto para investigar). Crear
-              me impulsa, por eso estoy en este mundo tecnológico, también me
-              interesan los temas de emprendimiento. Cocino bien (o eso me
-              dicen).
+              Me gusta la tecnología, los videojuegos y los juegos de mesa,
+              disfruto ser curioso ya que considero que todo es un pretexto para
+              investigar. Crear me impulsa, por eso estoy en este mundo
+              tecnológico; también me interesan los temas de emprendimiento.
+              Además cocino bien (o eso es lo que dicen quienes prueban mis
+              platos).
             </p>
             <p>
-              Asisto a diferentes comunidades de tecnología, es muy genial
-              relacionarse con las demás personas de la industria con temas muy
-              diversos. Soy un desarrollador con ganas de seguir aprendiendo,
-              conocer distintos temas por pasión a lo que hago, tener buenas
-              bases, habilidades blandas, contribuir, dar soluciones,
-              colaborar... Aportar a la comunidad, este es mi camino ninja.
+              Participo en diferentes comunidades de tecnología, para mí es muy
+              genial relacionarse con personas de la industria y poder hablar
+              sobre temas muy diversos. Soy un desarrollador con ganas de seguir
+              aprendiendo, conocer distintos temas por pasión a lo que hago,
+              adquirir bases sólidas sobre diversos temas, mejorar mis
+              habilidades blandas, contribuir a la comunidad y colaborar con la
+              misma, aportar en las soluciones a diferentes problemas. En
+              conclusión, fortalecer la comunidad es mi camino ninja.
             </p>
             <p>Y sí, este personaje soy yo.</p>
             <p>Buena suerte.</p>
