@@ -1,26 +1,45 @@
 ---
-title: Git, una guia para ti
-date: "2020-06-25T10:30:03.284Z"
-description: "Guia para aprender Git"
+title: Git - Primeros pasos | Guía parte 2
+date: "2020-06-26T10:30:03.284Z"
+description: "En esta segunda parte te compartiré como empezar a usarlo."
 ---
 
-> Guia para aprender Git (tu sistema control de versiones, tu mejor amigo)
+Esto es una guía para aprender Git, en esta segunda parte te compartiré como empezar a usarlo.
 
-Git es el sistema de control de versiones mas usado y recomendado en la industria tech, pero antes de comenzar con cosas técnicas, es mejor hablar de que es y porque usarlo, eso es lo que veremos a continuación.
+## Instalación
 
-## ¿Que es un sistema control de versiones?
 
-Para decir que es un sistema control de versiones, debemos ver el porque se crea uno, ¿cual es su origen?.
+### Ubuntu / Debian
 
-Este nace de la necesidad de registrar los cambios hechos en un mismo archivo. Quizas has tenido la necesidad de tener respaldo de un archivo en determinado momento en lo cambios que le has hecho, para no perder la información o tener una version estable del mismo por si todo se hecha a perder, y termina teniendo varios archivos en base a uno solo algo como archivo_versión_1, archivo_versión_2, archivo_versión_3…, \_archivo_versión_final, archivo_versión_final_final… (solo para ejemplificar lo anterior dicho).
+Si tu sistema operativo es algunas es alguna distribución de Debian, puedes instalarlo de la siguiente manera:
 
-### Repositorio
+```bash
+sudo apt-get install git
+```
 
-####¿Para que nos sirve un repositorio en git?
+### Mac
+
+Si tu sistema operativo es una version de MacOs, puedes instalarlo de la siguiente manera con el gestor de paquetes `HomeBrew`:
+
+```bash
+brew install git
+```
+
+### Por defecto:
+
+Siempre puedes acudir a la pagina oficial de Git [Aquí.](https://git-scm.com/downloads)
+
+
+
+## Crea tu primer repositorio
+
+### ¿Para que nos sirve un repositorio en git?
 
 Este nos sirve para agrupar aquel o aquellos archivos los cuales queremos requistrar sus cambios. Un repositorio nos sirve como un directorio o carpeta.
 
-####¿Como se crea un repositorio?
+
+
+### ¿Como se crea un repositorio?
 
 Para crear tu repositorio es muy simple, solo es estar dentro de la carpeta que quieres que contenga tu proyecto e ingresar el comando "init" en tu terminal de comandos.
 
@@ -31,19 +50,19 @@ git init
 En caso dado que tambien quieras crear tu carpeta mediante tu terminal, seria de la siguiente manera.
 
 ```bash
-mkdir MiRepositorio
-cd MiRepositorio
+mkdir Mi-proyecto
+cd Mi-proyecto
 git init
 ```
 
 Pero para mayor facilidad, la primera y tercera linea se pueden ahorrar con el siguiente comando.
 
 ```bash
-git init MiRepostirio
-cd MiRepositorio
+git init Mi-proyecto
+cd Mi-proyecto
 ```
 
-Genial, ya tienes tu repositorio con git, y te preguntaras como se que funciono. Si tienes la opcion activada para ver archivos ocultos, podras ver una carpeta llamada ".git", eso quiere decir que exitosamente ya creaste tu repositorio.
+Genial, ya tienes tu repositorio con git, y te preguntaras como se que funciono. Si tienes la opcion activada para ver archivos ocultos, podras ver una carpeta llamada `.git`, eso quiere decir que exitosamente ya creaste tu repositorio.
 
 En caso que no puedas ver archivos ocultos, lo podremos mirar en la terminal de comandos.
 
@@ -60,7 +79,7 @@ drwxr-xr-x  14 bhalut  staff  476 Jun 25 15:23 ..
 drwxr-xr-x  11 bhalut  staff  374 Jun 25 15:27 .git
 ```
 
-### Agregando cambios
+## Agregando cambios
 
 Los archivos creados hay que agregarlos al repositorio, esto se hace para rastrear los cambios que han habido en estos mismo, y de igual manera se agregan los cambios que este puede poseer.
 
@@ -79,7 +98,7 @@ git add *.txt
 Tambien en una carpeta especifica.
 
 ```bash
-git add micarpetaespecifica/*
+git add micarpeta/*
 ```
 
 O si solo quieres agregar todo lo que contiene tu repositorio.
@@ -87,6 +106,8 @@ O si solo quieres agregar todo lo que contiene tu repositorio.
 ```bash
 git add .
 ```
+
+
 
 ### Registrando los cambios agregados
 
@@ -98,7 +119,7 @@ pero para tu suerte, hacerlo es muy facil, y el comando es el siguiente.
 git commit
 ```
 
-Pero cuidado, es de buena practica agregarle un mensaje a tu "commit", para que tu o tu equipo sepa que cambios se están guardando. Por esta razon si solo colocas este comando, te aparecerá una ventana de editor llamada vim en tu consola o se abrira algun editor de texto para que escribas el mensaje de tu "commit".
+Pero cuidado, es de buena practica agregarle un mensaje a tu "commit", para que tu o tu equipo sepa que cambios se están guardando. Por esta razon si solo colocas este comando, te aparecerá una ventana de editor llamada vim en tu consola o se abrira algun editor de texto para que escribas el mensaje de tu "commit". 
 
 Aunque lo puedes hacer mas facil.
 
@@ -115,3 +136,4 @@ git commit -am "estoy agregando cambios a la ves que lo guardo"
 ```
 
 Bastante simple.
+
